@@ -1,0 +1,18 @@
+:root {
+    --player-color: rgb(213, 213, 231);
+    --enemy-color: rgb(13, 173, 13);
+    --food-color: rgb(255, 255, 255);
+    --background-color: white;
+}
+
+/* Set the background color for the entire game */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--background-color);
+}
+
+
+canvas {
+    display: block;
+}
